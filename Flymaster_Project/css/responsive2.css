@@ -1,0 +1,484 @@
+body.overflow-hidden #apply{
+    display: none;
+  }
+  .hamburger-dropdown{
+    display: none;
+    width: 100vw;
+    background: white;
+    z-index: 10000;
+    max-height: 0px;
+    top: 60px;
+    transition: 750ms all ease-out;
+    overflow: hidden;
+    position:fixed;
+    text-transform: capitalize;
+  }
+  
+  .footer .footer-dropdown{
+    display: none;
+  }
+  
+  .hamburger-icon .cancel{
+    display: none;
+  }
+  
+  .hamburger-icon{
+    display: none;
+  }
+  
+  .hamburger-options{
+    margin: 15px 30px;
+    display: flex;
+    flex-direction:row;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: space-between;
+  }
+  
+  div.hamburger-options:nth-child(1){
+    margin-top: 20px;
+  }
+  
+  
+  .hamburger-icon .menu{
+    display: block;
+  }
+  
+  .hamburger-dropdown a{
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    display: block;
+  }
+  
+  .hamburger-lgn-reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+  }
+  .hamburger-lgn-reg a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 1rem;
+    color: white;
+  }
+  .hamburger-lgn-reg>div a{
+    background-color: #015195;
+  }
+  .options-dropdown{
+    max-height: 0px;
+    width: 100vw;
+    overflow: hidden;
+    transition: 300ms all ease-out;
+    position: relative;
+    padding: 0 40px;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  .options-dropdown>div{
+    padding: 0.75px;
+  }
+  .footer .resp-copyright{
+    display: none;
+  }
+  
+  .res-card-container .masters-tag-resp{
+    display: none;
+  }
+  
+  
+  
+  @media screen and (max-width: 768px){
+  
+    .slctrr1:first-child>div:first-child .opt-cs{
+      z-index: 99999;
+  }
+  .slctrr1:first-child>div:nth-child(2) .opt-cs{
+      z-index: 99998;
+  }
+  .slctrr1:first-child>div:nth-child(3) .opt-cs{
+      z-index: 99997;
+  }
+  
+  
+    .res-flex>div{
+      margin-bottom: 1rem;
+    }
+    .form-container {
+        margin: 18px auto;
+        border: transparent;
+        padding: 1rem;
+    }
+    .res-flex{
+      display: block;
+    }
+    .form-container {
+        max-width: 450px;
+    }
+    .res-card-container .card-left-section .country-det{
+      margin-bottom: 15px;
+    }
+    /* .hamburger-dropdown{
+      display: block;
+    } */
+    .custSortBy{
+      padding: 0 2rem;
+    }
+  
+    .custSortBy>div:last-child
+  
+    {
+  display: none !important;
+  
+    }
+  
+  
+    #apply{
+      height: auto;
+    }
+    .centerngrow{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0;
+    }
+    #apply button{
+      width: fit-content;
+      margin-top: 10px;
+    }
+    .form-container{
+      border: transparent;
+    }
+    .form-container form> div, .mid380{
+      width: auto;
+    }
+    .header{
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    /* .header .nav-mid, .header .nav-end{
+      display: none !important;
+    } */
+    /* .header .hamburger-icon{
+      display: block;
+      margin: auto 10px;
+    } */
+  
+    .footer{
+      height: auto;
+    }
+  
+    .contacts{
+      flex-direction: column;
+      margin: 10px 0;
+    }
+  
+    .footer .links{
+      display: none;
+      overflow: hidden;
+    }
+  
+    .footer .brand{
+      margin-left: 10px;
+    }
+  
+    .footer .bottom-icons{
+      justify-content: flex-start;
+      padding: 10px 0 10px 12px;
+    }
+  
+    .footer .top-icons{
+      margin-left: 10px;
+    }
+  
+    .footer .brand a{
+      padding: 30px 0;
+    }
+  
+    .footer td{
+      padding: 0;
+    }
+  
+    .footer .brand-name{
+      margin: 0 20px;
+    }
+  
+    .footer .icons{
+      margin-top: 30px;
+  
+    }
+  
+    .bottom-icons svg{
+      margin:0 25px 0 0;
+    }
+  
+    .footer .offices, .footer .universities{
+      display: none;
+    }
+    .footer hr{
+      display: none;
+    }
+  
+    .footer .footer-dropdown{
+      display: block;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 50px 20px;
+    }
+    .footer .footer-dropdown svg>path{
+      fill: transparent;
+    }
+    .footer .footer-dropdown svg>path+path{
+      fill: white
+    }
+    hr.resp-hr{
+      display: block;
+      margin: 10px 0 20px;
+      width: 100%;
+    }
+    #appleLogo{
+      fill: white;
+    }
+    .footer-dd-options{
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0;
+    }
+    .footer-dd-options>svg{
+      transition: 300ms all;
+    }
+    .hamburger-options>svg{
+      transition: 300ms all;
+    }
+    .show>svg{
+      transform: rotateZ(180deg);
+    }
+    .rotateSVG>svg{
+      transform: rotateZ(180deg);
+    }
+    .footer .dropdown-options{
+      max-height: 0px;
+      overflow: hidden;
+      transition: 300ms all;
+      position: relative;
+      margin: 0 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer .show-dd{
+      max-height: 1000vh;
+    }
+    .footer .resp-copyright{
+      font-size: 11px;
+      color: white;
+      padding: 40px 20px 0;
+      display: block;
+    }
+  
+    .footer .resp-copyright .resp-tc-container{
+      padding: 40px 0 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .footer .resp-copyright .resp-tc-container a{
+      padding: 0;
+    }
+  
+    .country-heading-container {
+      background-position: center;
+    }
+  
+    .country-heading-container .country-header-form{
+      display: none;
+    }
+  
+    .country-heading-container .country-details{
+      width: 100%;
+      padding: 62px 30px;
+    }
+  
+    .country-about, .country-lifestyle, .university-gallery, .university-about, .courses-offered{
+      margin: 50px 20px;
+    }
+  
+    .university-header-container .university-header-form{
+      display: none;
+    }
+  
+    .university-header-container{
+      background-size: auto;
+      background-position: top;
+    }
+  
+    .university-header-container .header-bg-img{
+      flex-direction: column;
+      margin: 0!important;
+      height: 100%;
+      justify-content: space-between;
+      max-height: 260px;
+    }
+  
+    .university-header-container .header-bg-img .university-logo{
+      margin: 0 100px;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
+  
+    .header-bg-img{
+      background-image: url("img/unipic.jpg");
+      background-position: center;
+      background-size: cover;
+      box-shadow: -0 -20px 20px 250px rgb(0 0 0 / 60%) inset;
+  
+    }
+  
+    .university-header-container{
+      background: initial;
+    }
+  
+    .uni-header-left{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .university-header-container .header-bg-img .header-uni-details{
+      text-align: left;
+      margin-bottom: 0;
+      width: 100%;
+      padding-right: 5px;
+    }
+  
+    .university-header-container .header-bottom-details {
+      margin: 0 10px;
+    }
+  
+    .university-header-container .header-bottom-details .application-details, .university-header-container .header-bottom-details .header-exam-details {
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+  
+    .university-header-container .header-bottom-details .header-exam-details{
+      margin-top: 0;
+    }
+    .university-header-container{
+        height: 475px!important;
+    }
+    .university-header-container .header-bg-img{
+      border-radius: 0;
+    }
+    .courses-offered .bachelors, .masters{
+      overflow: auto;
+    }
+  
+  
+    .res-card-container{
+      width: 90vw;
+      height: fit-content;
+      margin: 20px;
+    }
+  
+    .res-card-container .ielts-bar{
+      width: 90vw;
+    }
+  
+    .search-res-card{
+      flex-direction: column;
+      width: auto;
+    }
+  
+    .res-card-container .card-left-section, .res-card-container .card-right-section{
+      width: 100%;
+      padding: 0;
+    }
+    .res-card-container .rating-container{
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+  
+    }
+  
+    .res-card-container .masters-tag-resp{
+      display: block;
+  
+    }
+  
+    .res-card-container .card-left-section .uni-logo {
+      margin: auto;
+    }
+  
+    .res-card-container .card-top-bar .masters-tag{
+      display: none;
+    }
+  
+    .res-card-container .card-top-bar{
+      width: 100%;
+      background-color: #c9d9e6;
+  
+    }
+  
+    .res-card-container .card-top-bar .uni-det{
+      margin: 20px;
+    }
+  
+    .res-card-container .card-mid-bar .application-details{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: auto;
+      margin: 10px 20px 0;
+    }
+  
+    .res-card-container .card-bottom-bar{
+      flex-direction: column;
+    }
+  
+    .res-card-container .card-left-section .country-det{
+      margin-left: 20px;
+    }
+  
+    .res-card-container .card-bottom-bar .header-exam-details{
+      margin: 0 20px 10px;
+    }
+  
+    .res-card-container .card-bottom-bar .card-buttons{
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+    }
+  
+    .res-card-container .card-bottom-bar .enquire, .res-card-container .card-bottom-bar .interested{
+      height: 40px;
+      border-radius: 4px;
+      margin: 0;
+    }
+  
+  }
+
+
+  @media screen and (max-width: 1200px){
+  
+    .header .nav-mid, .header .nav-end{
+      display: none !important;
+    }
+    .header .hamburger-icon {
+      display: block;
+      margin: auto 0 auto auto;
+    }
+    .hamburger-dropdown{
+      display: block;
+    }
+    .header {
+      grid-template-columns: 27% 72% 38%;
+    }
+}
